@@ -31,10 +31,13 @@ In addition to downloading videos, the script generates metadata (`.nfo` files) 
 
 1. The user enters one or more YouTube URLs (video, playlist, or channel).
 2. URLs are staged in a queue before downloading.
+<img width="2236" height="1259" alt="image" src="https://github.com/user-attachments/assets/368fef32-cbdb-445c-86af-c814fede5769" />
 3. The script uses `yt-dlp` to download videos and metadata.
+<img width="2236" height="1259" alt="image" src="https://github.com/user-attachments/assets/49419036-4438-44c8-9705-a5e7e0af8e46" />
 4. Videos are moved into a season folder (default: `Season 01`).
 5. Metadata and artwork are generated for each episode.
 6. Temporary folders are cleaned up automatically.
+<img width="912" height="601" alt="image" src="https://github.com/user-attachments/assets/1c1cd80c-618c-4088-acd8-6e2d6945773b" />
 
 Each YouTube channel is treated as a TV show, with videos organized as episodes.
 
